@@ -1,0 +1,30 @@
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.avatars{
+    height: 340px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-content: center;
+    margin: auto;
+}
+.avatar{
+    height: 100px;
+    width: 100px;
+}
+button{
+    width: 40%;
+        height: 30px;
+        border-radius: 20px;
+        margin: 0 auto 0 auto;
+        font-weight: bold;
+}
